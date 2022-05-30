@@ -32,6 +32,8 @@ DOMAIN,download.epicgames.com,DIRECT
 IP-CIDR,182.254.116.0/24,DIRECT
 IP-CIDR,203.205.238.0/23,DIRECT
 IP-CIDR,203.205.254.0/23,DIRECT
+# > bilibili
+DOMAIN-SUFFIX,bilibili.com,DIRECT
 # > IP Query
 DOMAIN,ip.istatmenus.app,DIRECT
 DOMAIN,sms.imagetasks.com,DIRECT
