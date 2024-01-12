@@ -11,7 +11,7 @@ DOMAIN,smtp-mail.outlook.com,DIRECT
 DOMAIN,smtp.office365.com,DIRECT
 
 # > VFS
-DOMAIN-SUFFIX,visa.vfsglobal.com,DIRECT
+DOMAIN-SUFFIX,vfsglobal.com,DIRECT
 
 # > Windows Server Update Services
 DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com,DIRECT
