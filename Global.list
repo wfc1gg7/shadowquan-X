@@ -186,7 +186,7 @@ DOMAIN-SUFFIX,zophar.net,PROXY
 DOMAIN-SUFFIX,zyxel.com,PROXY
 DOMAIN,lab.skk.moe,PROXY
 DOMAIN,ocsp.int-x3.letsencrypt.org,PROXY
-DOMAIN,spotify,PROXY
+DOMAIN,spotify.com,PROXY
 # > Akamai
 DOMAIN,a248.e.akamai.net,PROXY
 DOMAIN,a771.dscq.akamai.net,PROXY
