@@ -11,6 +11,9 @@ DOMAIN,origin-a.akamaihd.ne,DIRECT
 DOMAIN,outlook.office365.com,DIRECT
 DOMAIN,smtp-mail.outlook.com,DIRECT
 DOMAIN,smtp.office365.com,DIRECT
+# > teams
+DOMAIN,teams.microsoft.com,DIRECT
+DOMAIN,teams.office365.com,DIRECT
 
 # > VFS
 DOMAIN-SUFFIX,vfsglobal.com,DIRECT
