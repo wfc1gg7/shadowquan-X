@@ -1,90 +1,94 @@
 # > bilibili
-DOMAIN-SUFFIX,bilibili.com,DIRECT
+host-suffix, bilibili.com, direct
 # China Area Network
-DOMAIN-SUFFIX,flyert.com,DIRECT
-DOMAIN-SUFFIX,gandi.net,DIRECT
-DOMAIN-SUFFIX,snapdrop.net,DIRECT
-DOMAIN,download.jetbrains.com,DIRECT
-DOMAIN,origin-a.akamaihd.ne,DIRECT
+host-suffix, flyert.com, direct
+host-suffix, gandi.net, direct
+host-suffix, snapdrop.net, direct
+host, download.jetbrains.com, direct
+host, origin-a.akamaihd.ne, direct
 # ---(Microsoft)---
 # > Outlook
-DOMAIN,outlook.office365.com,DIRECT
-DOMAIN,smtp-mail.outlook.com,DIRECT
-DOMAIN,smtp.office365.com,DIRECT
+host, outlook.office365.com, direct
+host, smtp-mail.outlook.com, direct
+host, smtp.office365.com, direct
 # > teams
-DOMAIN,teams.microsoft.com,DIRECT
-DOMAIN,teams.office365.com,DIRECT
+host, teams.microsoft.com, direct
+host, teams.office365.com, direct
 
 # > VFS
-DOMAIN-SUFFIX,vfsglobal.com,DIRECT
+host-suffix, vfsglobal.com, direct
 
 # > Windows Server Update Services
-DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com,DIRECT
-DOMAIN-SUFFIX,update.microsoft.com,DIRECT
-DOMAIN-SUFFIX,windowsupdate.com,DIRECT
-DOMAIN-SUFFIX,windowsupdate.microsoft.com,DIRECT
-DOMAIN,download.microsoft.com,DIRECT
-DOMAIN,wustat.windows.com,DIRECT
-DOMAIN,ntservicepack.microsoft.com,DIRECT
+host-suffix, dl.delivery.mp.microsoft.com, direct
+host-suffix, update.microsoft.com, direct
+host-suffix, windowsupdate.com, direct
+host-suffix, windowsupdate.microsoft.com, direct
+host, download.microsoft.com, direct
+host, wustat.windows.com, direct
+host, ntservicepack.microsoft.com, direct
 # ------
+# > Apple
+host, apps.apple.com, direct
+host, itunes.apple.com, direct
+host, gateway.icloud.com, direct
 # > PayPal
-DOMAIN-SUFFIX,paypal.com,DIRECT
-DOMAIN-SUFFIX,paypal.me,DIRECT
-DOMAIN-SUFFIX,paypal-mktg.com,DIRECT
-DOMAIN-SUFFIX,paypalobjects.com,DIRECT
+host-suffix, paypal.com, direct
+host-suffix, paypal.me, direct
+host-suffix, paypal-mktg.com, direct
+host-suffix, paypalobjects.com, direct
 # > Steam
-DOMAIN-SUFFIX,cm.steampowered.com,DIRECT
-DOMAIN,api.steampowered.com,DIRECT
+host-suffix, cm.steampowered.com, direct
+host, api.steampowered.com, direct
 # > Epic
-DOMAIN,download.epicgames.com,DIRECT
+host, download.epicgames.com, direct
 # > Tencent
-IP-CIDR,182.254.116.0/24,DIRECT
-IP-CIDR,203.205.238.0/23,DIRECT
-IP-CIDR,203.205.254.0/23,DIRECT
+ip-cidr, 182.254.116.0/24, direct
+ip-cidr, 203.205.238.0/23, direct
+ip-cidr, 203.205.254.0/23, direct
 
 # > IP Query
-DOMAIN,ip.istatmenus.app,DIRECT
-DOMAIN,sms.imagetasks.com,DIRECT
+host, ip.istatmenus.app, direct
+host, sms.imagetasks.com, direct
 
 # > Private Tracker
-DOMAIN-SUFFIX,acg.rip,DIRECT
-DOMAIN-SUFFIX,animebytes.tv,DIRECT
-DOMAIN-SUFFIX,awesome-hd.me,DIRECT
-DOMAIN-SUFFIX,broadcasthe.net,DIRECT
-DOMAIN-SUFFIX,chdbits.co,DIRECT
-DOMAIN-SUFFIX,classix-unlimited.co.uk,DIRECT
-DOMAIN-SUFFIX,comicat.org,DIRECT
-DOMAIN-SUFFIX,empornium.me,DIRECT
-DOMAIN-SUFFIX,gazellegames.net,DIRECT
-DOMAIN-SUFFIX,hdbits.org,DIRECT
-DOMAIN-SUFFIX,hdchina.org,DIRECT
-DOMAIN-SUFFIX,hddolby.com,DIRECT
-DOMAIN-SUFFIX,hdhome.org,DIRECT
-DOMAIN-SUFFIX,hdsky.me,DIRECT
-DOMAIN-SUFFIX,icetorrent.org,DIRECT
-DOMAIN-SUFFIX,jpopsuki.eu,DIRECT
-DOMAIN-SUFFIX,keepfrds.com,DIRECT
-DOMAIN-SUFFIX,madsrevolution.net,DIRECT
-DOMAIN-SUFFIX,morethan.tv,DIRECT
-DOMAIN-SUFFIX,m-team.cc,DIRECT
-DOMAIN-SUFFIX,myanonamouse.net,DIRECT
-DOMAIN-SUFFIX,nanyangpt.com,DIRECT
-DOMAIN-SUFFIX,ncore.cc,DIRECT
-DOMAIN-SUFFIX,open.cd,DIRECT
-DOMAIN-SUFFIX,ourbits.club,DIRECT
-DOMAIN-SUFFIX,passthepopcorn.me,DIRECT
-DOMAIN-SUFFIX,privatehd.to,DIRECT
-DOMAIN-SUFFIX,pterclub.com,DIRECT
-DOMAIN-SUFFIX,redacted.ch,DIRECT
-DOMAIN-SUFFIX,springsunday.net,DIRECT
-DOMAIN-SUFFIX,tjupt.org,DIRECT
-DOMAIN-SUFFIX,totheglory.im,DIRECT
+host-suffix, acg.rip, direct
+host-suffix, animebytes.tv, direct
+host-suffix, awesome-hd.me, direct
+host-suffix, broadcasthe.net, direct
+host-suffix, chdbits.co, direct
+host-suffix, classix-unlimited.co.uk, direct
+host-suffix, comicat.org, direct
+host-suffix, empornium.me, direct
+host-suffix, gazellegames.net, direct
+host-suffix, hdbits.org, direct
+host-suffix, hdchina.org, direct
+host-suffix, hddolby.com, direct
+host-suffix, hdhome.org, direct
+host-suffix, hdsky.me, direct
+host-suffix, icetorrent.org, direct
+host-suffix, jpopsuki.eu, direct
+host-suffix, keepfrds.com, direct
+host-suffix, madsrevolution.net, direct
+host-suffix, morethan.tv, direct
+host-suffix, m-team.cc, direct
+host-suffix, myanonamouse.net, direct
+host-suffix, nanyangpt.com, direct
+host-suffix, ncore.cc, direct
+host-suffix, open.cd, direct
+host-suffix, ourbits.club, direct
+host-suffix, passthepopcorn.me, direct
+host-suffix, privatehd.to, direct
+host-suffix, pterclub.com, direct
+host-suffix, redacted.ch, direct
+host-suffix, springsunday.net, direct
+host-suffix, tjupt.org, direct
+host-suffix, totheglory.im, direct
 
 # > Speed Test
-DOMAIN-SUFFIX,netspeedtestmaster.com,DIRECT
-DOMAIN,speedtest.macpaw.com,DIRECT
+host-suffix, netspeedtestmaster.com, direct
+host, speedtest.macpaw.com, direct
 
 # > Tecent
-DOMAIN-SUFFIX,qq.com,DIRECT
+host-suffix, qq.com, direct
 
-GEOIP,CN,DIRECT
+geoip, cn, direct
